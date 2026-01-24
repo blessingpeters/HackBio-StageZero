@@ -1,10 +1,10 @@
 # Dashboards for Biology: Stop Treating Your Plots Like PowerPoint
 
-## Introduction
+### Introduction
 
 Biologists have used static figures to show data for many years. We create graphs, put them in PowerPoint, and present them. But this old way has problems. Our data is getting bigger and more complex. Static plots cannot show everything we need to see. The answer is interactive dashboards. These let us explore data in real time and make better decisions.
 
-## Problems with Static Plots
+### Problems with Static Plots
 
 When we use static figures, we follow these steps: ask a question, collect data, make a plot, and share our interpretation. This works for final papers. But it creates problems during research.
 
@@ -14,11 +14,11 @@ When we use static figures, we follow these steps: ask a question, collect data,
 
 **Hard to communicate**: Static figures need long captions to explain everything. Readers cannot look at the data themselves or test their own ideas.
 
-## Interactive Dashboards: A Better Way
+### Interactive Dashboards: A Better Way
 
 Interactive dashboards change how we use data visualization. Instead of just showing conclusions, dashboards let people explore data. This is very useful in biology. Our datasets often have unexpected patterns. Different people need to see the data in different ways.
 
-### Why Dashboards Help Biologists
+#### Why Dashboards Help Biologists
 
 **Filter and sort data easily**: Researchers can filter data by different conditions. For example, in single-cell RNA sequencing, users can filter cells by cluster, gene expression, or patient information. All plots update right away.
 
@@ -30,7 +30,7 @@ Interactive dashboards change how we use data visualization. Instead of just sho
 
 #R has powerful tools for making interactive biology dashboards. Tools like Shiny and Quarto allow researchers to create these dashboards without needing web development expertise. Shiny builds web-based applications where users can interact with data through buttons, sliders, and filters. Quarto creates interactive documents that combine analysis code with visualizations that users can manipulate directly in their browser.
 
-## Case Studies: Dashboards in Action
+### Case Studies: Dashboards in Action
 
 #### Clinical Trials and Drug Studies
 Consider a clinical trial monitoring patient responses to cancer treatment across different therapy groups. A static bar graph might show average response rates, but it locks in which patient groups are compared, what timepoint is displayed, and which biomarkers are shown. An interactive dashboard could let a researcher:
@@ -40,7 +40,7 @@ iii. Examine how individual patients responded throughout the treatment period.
 The dataset reveals more insights, not because of better graphics, but because researchers can ask different questions of the same data. The FDA's Sentinel Initiative demonstrates this approach by using dashboards to track drug safety patterns across millions of patient records.
 
 
-## How to Start
+### How to Start
 
 For biologists who want to move from static plots to interactive dashboards:
 
@@ -52,15 +52,15 @@ For biologists who want to move from static plots to interactive dashboards:
 
 **Share and work together**: The R community has many resources for dashboard development. Share your dashboards (even imperfect ones) to get feedback and help others learn. Many successful tools started as personal projects shared openly.
 
-## Conclusion
+### Conclusion
 
 Moving from static figures to interactive dashboards is more than a technical change. It is a shift in how we think about data visualization in biological research. Instead of seeing plots as endpoints that show conclusions, dashboards treat visualization as a process that enables exploration, discovery, and decision-making.
 
 As biological datasets continue to grow, the ability to create interactive dashboards will become essential for researchers. The tools are ready to use. Learning resources are available. The impact on research efficiency and quality is large. The question is not whether to use interactive visualization, but how quickly we can stop treating our plots like PowerPoint.
 
-## References
+### References
 
-1Allaire, J.J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2024). Quarto: R Interface to 'Quarto' Markdown Publishing System. https://quarto.org
+Allaire, J.J., Teague, C., Scheidegger, C., Xie, Y., & Dervieux, C. (2024). Quarto: R Interface to 'Quarto' Markdown Publishing System. https://quarto.org
 
 Chang, W., Cheng, J., Allaire, J., Sievert, C., Schloerke, B., Xie, Y., Allen, J., McPherson, J., Dipert, A., & Borges, B. (2021). shiny: Web Application Framework for R. R package version 1.7.1. https://CRAN.R-project.org/package=shiny
 
