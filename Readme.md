@@ -1,5 +1,4 @@
 # HackBio-StageZero
-# Dashboards for Biology: Stop Treating Your Plots Like PowerPoint
 
 This repository contains my Stage 0 project
 
